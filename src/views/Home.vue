@@ -10,7 +10,7 @@
         oneself a costume that according to the person who wears it.
       </p>
       <router-link
-        to=""
+        to="/product?page=1&category=all"
         class="btn fs-3 text-white rounded-5 border-white py-3 w-100 shopBtn"
         >Shop now</router-link
       >
