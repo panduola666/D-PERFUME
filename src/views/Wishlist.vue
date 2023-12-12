@@ -58,7 +58,7 @@
   </div>
   <h3>推薦商品</h3>
   <ul class="list-unstyled row">
-    <li class="col-3" v-for="item in products.slice(0, 4)" :key="item.id">
+    <li class="col-12 col-md-3 mb-3" v-for="item in products.slice(0, 4)" :key="item.id">
       <div class="card">
         <img :src="item.image" class="card-img-top object-fit-cover" :alt="item.title" height="300">
         <div class="card-body p-2">
